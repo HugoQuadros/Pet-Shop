@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+}
+
+header .container{
+    background-color: #FFBE51;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+    width: 100%;
+}
+
+header .container .logo img{
+    max-width: 100%;
+}
+
+header .container .paginas a{
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+/* -----INICIO----- */
+
+.inicio section.conteudo .container article.apresentacao{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inicio section.conteudo .container article.apresentacao .texto{
+    margin-right: 20px;
+    width: auto;
+    max-width: 450px;
+}
+
+.inicio section.conteudo .container article.apresentacao .imagem{
+    width: auto;
+    max-width: 500px;
+    margin-left: 20px;
+}
+
+.inicio section.conteudo .container article.apresentacao .imagem img{
+    width: auto;
+    max-width: 95%;
+
+}
+
+.inicio section.conteudo .container article.apresentacao .texto p{
+    font-weight: 800;
+    font-size: 40px;
+    color: #757575;
+    text-transform: uppercase;
+}
+
+.inicio section.conteudo .container article.miniaturas{
+    background-color: #E5E5E5;
+    padding: 10px;
+}
+
+.inicio section.conteudo .container article.miniaturas h4{
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.inicio section.conteudo .container article.miniaturas .minis{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inicio section.conteudo .container article.miniaturas .minis .mini1,
+.inicio section.conteudo .container article.miniaturas .minis .mini2,
+.inicio section.conteudo .container article.miniaturas .minis .mini3{
+    padding: 0 10px;
+}
+
+.inicio section.conteudo .container article.miniaturas .minis img{
+    height: 214px;
+    width: 216px;
+    max-width: 100%;
+}
+
+.inicio section.conteudo .container article.miniaturas .minis .mini1 p:first-of-type,
+.inicio section.conteudo .container article.miniaturas .minis .mini2 p:first-of-type,
+.inicio section.conteudo .container article.miniaturas .minis .mini3 p:first-of-type{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.inicio section.conteudo .container article.miniaturas .minis .mini1 p:last-of-type,
+.inicio section.conteudo .container article.miniaturas .minis .mini2 p:last-of-type,
+.inicio section.conteudo .container article.miniaturas .minis .mini3 p:last-of-type{
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.inicio section.conteudo .container article.cuidados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+    padding: 40px 30px;
+}
+
+.inicio section.conteudo .container article.cuidados .imagem{
+    max-width: 500px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.inicio section.conteudo .container article.cuidados .imagem img{
+    max-width: 95%;
+    width: auto;
+}
+
+.inicio section.conteudo .container article.cuidados .texto{
+    max-width: 450px;
+    width: auto;
+    margin-left: 20px;
+}
+
+.inicio section.conteudo .container article.cuidados .texto p{
+    padding: 0 10px;
+    text-align: justify;
+}
+
+.inicio section.conteudo .container article.cuidados .texto p:first-of-type{
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.inicio section.conteudo .container article.cuidados .texto p:last-of-type{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+section.conteudo .container article.mapa{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #FFBE51;
+}
+
+section.conteudo .container article.mapa .logo-texto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+section.conteudo .container article.mapa .logo-texto img{
+    max-width: 200px;
+}
+
+section.conteudo .container article.mapa .logo-texto a{
+    text-decoration: none;
+    color: black;
+}
+
+section.conteudo .container article.mapa .map iframe{
+    height: 180px;
+    width: 300px;
+    max-width: 100%;
+}
+
+
+/* -----SERVIÇOS----- */
+
+.servicos section .container h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFBE51;
+    margin: 80px 0;
+}
+
+.servicos section .container article.banho,
+.servicos section .container article.tosa,
+.servicos section .container article.vet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding: 0 30px; */
+    margin: 40px 0;
+}
+
+.servicos section .container article .foto{
+    padding: 0;
+    margin-right: 40px;
+}
+
+.servicos section .container article .descricao{
+    /* width: 30%; */
+    max-width: 400px;
+    /* height: 100%; */
+    text-align: justify;
+    margin-left: 40px;
+}
+
+.servicos section .container article .descricao .titulo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.servicos section .container article .descricao .titulo p:first-of-type{
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+}
+
+.servicos section .container article .descricao .titulo p:last-of-type{
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0 0 0 10px;
+}
+
+.servicos section .container article .descricao p{
+    margin: 10px 0;
+}
+
+.servicos section .container article .descricao a{
+    width: 50%;
+}
+
+.servicos section .container article .descricao button{
+    width: 100%;
+    background-color: #FFC107;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.servicos section .container hr{
+    border: none;
+    height: 3px;
+    color: #C4C4C4;
+    background-color: #C4C4C4;
+    width: 85%;
+}
+
+
+/* -----CONTATO----- */
+
+.contato section .container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    min-height: calc(100vh - 92px - 57px);
+}
+
+.contato section h2{
+    font-weight: 800;
+    font-size: 40px;
+    color: #FFC107;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.contato section .container form input,
+.contato section .container form textarea{
+    width: 100%;
+    margin: 5px 0;
+    padding-left: 10px;
+}
+
+.contato section .container form textarea{
+    resize: none;
+}
+
+.contato section .container button{
+    width: 100%;
+    background-color: #FFC107;
+    color:#fff;
+    font-weight: 800;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.contato section .container article{
+    margin: 0 40px;
+}
+
+.contato section .container article.info{
+    padding-top: 70px;
+}
+
+.contato section .container article.info a{
+    text-decoration: none;
+    color: black;
+}
+
+.contato section .container iframe{
+    width: 400px;
+    max-width: 100%;
+}
+
+
+/* -----LOGIN----- */
+
+.login section .container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    min-height: calc(100vh - 92px - 57px);
+}
+
+.login section .container .imagem img{
+    width: 100%;
+    max-width: 500px;
+    padding-top: 20px;
+}
+
+.login section .container .caixa-login{
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.25);
+}
+
+.login section .container .caixa-login h2{
+    font-weight: 800;
+    font-size: 40px;
+    color: #FFC107;
+}
+
+.login section .container .caixa-login input{
+    margin: 5px 0;
+    width: 70%;
+}
+
+.login section .container .caixa-login button{
+    margin: 10px 50px;
+    width: 70%;
+    font-weight: 800;
+    font-size: 16px;
+    background-color: #FFC107;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.login section .container .caixa-login a{
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.login section .container .caixa-login p{
+    margin-bottom: 75px;
+}
+
+
+/* -----CADASTRO----- */
+
+.cadastro section .container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    min-height: calc(100vh - 92px - 57px);
+}
+
+.cadastro section .container .caixa-cadastro h2{
+    font-weight: 800;
+    font-size: 40px;
+    color: #FFC107;
+}
+
+.cadastro section .container .imagem img{
+    width: 100%;
+    max-width: 500px;
+    margin-right: 10px;
+}
+
+.cadastro section .container .caixa-cadastro{
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.25);
+}
+
+.cadastro section .container .caixa-cadastro input{
+    margin: 5px 0;
+    width: 70%;
+}
+
+.cadastro section .container .caixa-cadastro button{
+    /* margin: 10px 50px 75px 50px; */
+    margin-bottom: 75px;
+    width: 70%;
+    font-weight: 800;
+    font-size: 16px;
+    background-color: #FFC107;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* -----FOOTER----- */
+
+
+footer .container{
+    background-color: #C4C4C4;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+footer .container p{    
+    margin: 0;
+}
+
+
+
+@media (max-width: 325px){
+    .inicio section.conteudo .container article.apresentacao .texto p{
+        font-size: 25px;
+    }
+
+    .cadastro section .container .caixa-cadastro h2{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 285px){
+    .inicio section.conteudo .container article.miniaturas .minis img{
+        height: 164px;
+        width: 166px;
+    }
+}
+
+@media (max-width: 255px){
+    section.conteudo .container article.mapa .logo-texto a,
+    section.conteudo .container article.mapa .logo-texto p{
+        font-size: 10px;
+    }
+
+    section.conteudo .container article.mapa .logo-texto img{
+        width: 120px;
+    }
+}
+
+@media (max-width: 205px){
+    .servicos section .container h1{
+        font-size: 20px;
+    }
+
+    .servicos section .container article .descricao .titulo p:first-of-type{
+        font-size: 20px;
+    }
+
+    .login section .container .caixa-login h2{
+        font-size: 20px;
+    }
+}
